@@ -6,5 +6,7 @@ def my_select(collection)
  if value == true 
    results << collection[i]
  end
+ i = i + 1
+ end
  results
 end
