@@ -4,5 +4,7 @@ def my_select(collection)
  while i < collection.length 
  value = yield collection[i]
  if value == true 
-   results << collection
+   results << collection[i]
+ end
+ results
 end
