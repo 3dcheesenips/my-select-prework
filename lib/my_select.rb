@@ -3,4 +3,6 @@ def my_select(collection)
  i = 0 
  while i < collection.length 
  value = yield collection[i]
+ if value == true 
+   results << collection
 end
